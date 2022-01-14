@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: auto;
+  }
+header {
+    background-image: url("img/anc.png");
+    background-repeat: no-repeat;
+   background-size: cover;
+
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+header nav i {
+    color: #fff;
+    font-size: 24px;
+}
+header h1 {
+    font-size: 52px;
+letter-spacing: 2px;
+color: #ffffff;
+font-weight: 300;
+font-family: "Open Sans";
+text-align: center;
+margin-top: 200px;
+}
+
+  
+  .fr {
+    display: flex;
+    justify-content: center;
+  }
+  form input {
+    width: 326px;
+    height: 40px;
+    background-color: #ffffff;
+    border: none;
+    padding: 15px 0 15px 15px;
+  }
+  form button {
+    background-color: #fd4f32;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 50px;
+    border: none;
+    /* width: 122px; */
+/* height: 40px; */
+font-size: 16px;
+letter-spacing: 1px;
+
+font-weight: 700;
+font-family: "Open Sans";
+
+  }
+  header form {
+    margin-top: 40px;
+    padding-bottom: 200px;
+  }
+  
+
+
+
+
+  #images {
+    background-color: #eeeeee;
+  }
+
+  #images h2{
+    font-size: 18px;
+letter-spacing: 0px;
+color: #323232;
+font-weight: 700;
+font-family: "Montserrat";
+text-align: left;
+padding-top: 60px;
+margin-bottom: 20px;
+text-transform: uppercase;
+  }
+
+
+  #images p{
+    font-size: 15px;
+letter-spacing: 0px;
+color: #8b8b8b;
+font-weight: 400;
+font-family: "Open Sans";
+text-align: left;
+  }
+
+
+  .country{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .country h3{
+    font-size: 16px;
+letter-spacing: 0px;
+color: #323232;
+font-weight: 400;
+font-family: 'Montserrat', sans-serif;;
+text-transform: uppercase;
+margin: 20px 0;
+
+  }
+
+  .country p{
+    width: 204px;
+font-size: 13px;
+line-height: 19px;
+color: #696969;
+font-weight: 400;
+font-family: 'Montserrat', sans-serif;
+  }
+
+
+  .country img{
+    width: 230px;
+  }
+
+  .country div{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 70px;
+  }
+
+.text{
+  background-color: #fff;
+ padding: 20px 0 20px 8px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:768px){
+  header nav {
+    justify-content: space-around;
+}
+
+header h1 {
+  font-size: 32px;
+}
+
+.fr {
+  flex-direction: column;
+}
+form input {
+  margin: auto;
+  width: 300px;
+  border-radius: 20px;
+}
+form button {
+ margin: auto;
+  width: 122px;
+}
+
+.country{
+  flex-direction: column;
+  align-items: center;
+}
+
+.country div{
+  margin-bottom: 20px;
+}
+
+}
+.end{
+  background-color: #ffffff;
+  margin-top: 70px;
+}
+.end h2 {
+  font-size: 52px;
+letter-spacing: 2px;
+color: #323232;
+font-weight: 300;
+font-family: "Open Sans";
+text-align: start;
+}
+.enddiv {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+  /* flex-direction: column; */
+  margin-left: 70px;
+ 
+}
+.enddiv h3{
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #323232;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+  text-transform: uppercase;
+
+}
+.enddiv p{
+  font-size: 15px;
+letter-spacing: 0px;
+line-height: 22px;
+color: #8b8b8b;
+font-weight: 400;
+font-family: "Open Sans";
+margin-top: 20px;
+}
+.end div {
+  margin-left: 70px
+}
+.afr{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  padding-bottom: 200px;
+
+}
+.frfr input{
+  
+  width: 326px;
+  height: 40px;
+  background-color: #eeeeee;
+  border: none;
+  padding: 15px 0 15px 15px;
+}
+.frfr button{
+  background-color: #fd4f32;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 50px;
+    border: none;
+    /* width: 122px; */
+/* height: 40px; */
+font-size: 16px;
+letter-spacing: 1px;
+
+font-weight: 700;
+font-family: "Open Sans";
+
+}
+footer{
+  background-color: #eeeeee;
+  display: flex;
+  padding: 30px 0;
+}
+footer p{
+  font-size: 14px;
+letter-spacing: 0px;
+line-height: 22px;
+color: #8b8b8b;
+font-weight: 400;
+font-family: "Open Sans";
+}
+footer ul li {
+  display: flex;
+  /* flex-direction: column; */
+}
+footer container{
+  display: flex;
+ align-items: center;
+}
+#dh4{
+  font-size: 16px;
+letter-spacing: 0px;
+color: #323232;
+font-weight: 400;
+font-family: "Montserrat";
+text-align: center;
+text-transform: uppercase;
+margin: 75px 0 20px;
+}
